@@ -33,13 +33,3 @@ if action == "yes":
 else:
     print("Thank you for using the Weight Converter and Weight Loss Calculator")
     
-    
-#Here's a summary of the changes made:
-
-#Removed .str() from the action input line. You don't need to convert this input to a string; it's already a string by default.
-
-#Indented the lines inside the if action == "yes": block correctly.
-
-#Added the .2f formatting to the output of the weight to display it with two decimal places.
-
-#Changed the conversion factor from 2.205 to 2.205 to fix the conversion from pounds to kilograms.
